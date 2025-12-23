@@ -1,0 +1,28 @@
+{
+  "name": "kotlin-lsp-marketplace",
+  "owner": {
+    "name": "h16rkim",
+    "url": "https://github.com/h16rkim"
+  },
+  "plugins": [
+    {
+      "name": "kotlin-lsp",
+      "source": "./",
+      "description": "Kotlin language support for Claude Code using JetBrains official Kotlin LSP",
+      "version": "1.0.0",
+      "author": {
+        "name": "h16rkim"
+      },
+      "homepage": "https://github.com/h16rkim/cc-kotlin-lsp-plugin",
+      "repository": "https://github.com/h16rkim/cc-kotlin-lsp-plugin",
+      "license": "MIT",
+      "keywords": [
+        "kotlin",
+        "lsp",
+        "language-server",
+        "jetbrains",
+        "gradle"
+      ]
+    }
+  ]
+}

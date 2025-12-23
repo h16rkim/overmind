@@ -31,12 +31,26 @@ brew install JetBrains/utils/kotlin-lsp
 
 ## 플러그인 설치
 
-### 로컬 테스트
+### Marketplace를 통한 설치 (권장)
+
+1. **마켓플레이스 추가:**
+   ```
+   /plugin marketplace add h16rkim/cc-kotlin-lsp-plugin
+   ```
+
+2. **플러그인 설치:**
+   ```
+   /plugin install kotlin-lsp@kotlin-lsp-marketplace
+   ```
+
+### 로컬 설치
+
+**테스트용:**
 ```bash
 claude --plugin-dir /path/to/cc-kotlin-lsp-plugin
 ```
 
-### 영구 설치
+**영구 설치:**
 ```bash
 # 플러그인 디렉토리에 심볼릭 링크 생성
 ln -s /path/to/cc-kotlin-lsp-plugin ~/.claude/plugins/kotlin-lsp
@@ -100,12 +114,21 @@ Kotlin LSP는 현재 실험적 단계입니다:
 - 프로젝트 루트에 `build.gradle` 또는 `build.gradle.kts` 파일이 있는지 확인
 - Gradle wrapper (`gradlew`)가 있는지 확인
 
+### 플러그인 설치 문제
+
+플러그인이 인식되지 않는 경우:
+```bash
+# 플러그인 유효성 검사
+/plugin validate /path/to/cc-kotlin-lsp-plugin
+```
+
 ## 참고 자료
 
 - [Kotlin LSP GitHub](https://github.com/Kotlin/kotlin-lsp)
 - [Claude Code Plugins Documentation](https://code.claude.com/docs/en/plugins)
 - [LSP Server Reference](https://code.claude.com/docs/en/plugins-reference#lsp-server)
+- [Plugin Marketplaces](https://code.claude.com/docs/en/plugin-marketplaces)
 
 ## 라이선스
 
-MIT License
+MIT License - 자세한 내용은 [LICENSE](LICENSE) 파일을 참조하세요.

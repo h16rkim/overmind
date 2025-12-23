@@ -1,8 +1,20 @@
 {
   "name": "kotlin-lsp",
-  "description": "Kotlin language support for Claude Code using JetBrains official Kotlin LSP",
   "version": "1.0.0",
+  "description": "Kotlin language support for Claude Code using JetBrains official Kotlin LSP",
   "author": {
-    "name": "yakpoong"
-  }
+    "name": "h16rkim",
+    "url": "https://github.com/h16rkim"
+  },
+  "repository": "https://github.com/h16rkim/cc-kotlin-lsp-plugin",
+  "homepage": "https://github.com/h16rkim/cc-kotlin-lsp-plugin#readme",
+  "license": "MIT",
+  "keywords": [
+    "kotlin",
+    "lsp",
+    "language-server",
+    "jetbrains",
+    "gradle"
+  ],
+  "lspServers": "./.lsp.json"
 }
