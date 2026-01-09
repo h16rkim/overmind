@@ -1,0 +1,16 @@
+{
+  "description": "Kotlin LSP 의존성 설치",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "command -v kotlin-lsp || brew install JetBrains/utils/kotlin-lsp"
+          }
+        ]
+      }
+    ]
+  }
+}

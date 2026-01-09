@@ -1,6 +1,6 @@
 {
   "name": "kotlin-lsp",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Kotlin language support for Claude Code using JetBrains official Kotlin LSP",
   "author": {
     "name": "h16rkim",
