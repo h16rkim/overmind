@@ -49,8 +49,8 @@
       "keywords": ["java", "lsp", "language-server", "eclipse"]
     },
     {
-      "name": "typescript-lsp",
-      "source": "./typescript-lsp",
+      "name": "typescript-language-server",
+      "source": "./typescript-language-server",
       "description": "TypeScript/JavaScript language support for Claude Code using typescript-language-server",
       "version": "0.1.0",
       "author": {
@@ -62,7 +62,7 @@
       "license": "MIT",
       "keywords": ["typescript", "javascript", "lsp", "language-server"],
       "lspServers": {
-        "typescript-lsp": {
+        "typescript-language-server": {
           "command": "typescript-language-server",
           "extensionToLanguage": {
             ".ts": "typescript",

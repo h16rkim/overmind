@@ -1,5 +1,5 @@
 {
-  "name": "typescript-lsp",
+  "name": "typescript-language-server",
   "version": "0.1.0",
   "description": "TypeScript/JavaScript language support for Claude Code using typescript-language-server",
   "author": {

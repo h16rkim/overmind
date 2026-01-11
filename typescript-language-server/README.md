@@ -1,4 +1,4 @@
-# typescript-lsp
+# typescript-language-server
 
 TypeScript/JavaScript language support for Claude Code using typescript-language-server.
 
