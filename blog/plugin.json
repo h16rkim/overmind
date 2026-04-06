@@ -1,0 +1,13 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "description": "Blog skills for place research, later management, and place management",
+  "author": {
+    "name": "h16rkim",
+    "email": "h16rkim@gmail.com"
+  },
+  "repository": "https://github.com/h16rkim/overmind",
+  "homepage": "https://github.com/h16rkim/overmind",
+  "license": "MIT",
+  "keywords": ["blog", "kakaomap", "googlemap", "place", "later"]
+}

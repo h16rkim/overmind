@@ -71,11 +71,22 @@
       "name": "mcps",
       "source": "./mcps",
       "description": "MCP servers for Claude Code",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "h16rkim",
         "email": "h16rkim@gmail.com"
       }
+    },
+    {
+      "name": "blog",
+      "source": "./blog",
+      "description": "Blog skills for place research, later management, and place management",
+      "version": "0.1.0",
+      "author": {
+        "name": "h16rkim",
+        "email": "h16rkim@gmail.com"
+      },
+      "keywords": ["blog", "kakaomap", "googlemap", "place", "later"]
     }
   ]
 }
