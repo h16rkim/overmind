@@ -12,5 +12,9 @@
       "clientId": "1601185624273.8899143856786",
       "callbackPort": 3118
     }
+  },
+  "playwright": {
+    "command": "npx",
+    "args": ["-y", "@executeautomation/playwright-mcp-server"]
   }
 }
