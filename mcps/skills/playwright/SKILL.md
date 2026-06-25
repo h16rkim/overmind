@@ -1,5 +1,5 @@
 ---
-name: playwright-crawl
+name: playwright
 description: Playwright MCP를 사용하여 봇 차단(User-Agent 검사·접속 차단)이 적용된 웹사이트도 크롤링한다. 네이버 스마트스토어·쿠팡·11번가처럼 기본 헤드리스 브라우저가 차단되는 사이트의 상품·검색·랭킹 데이터를 수집할 때 사용한다.
 ---
 

@@ -15,10 +15,6 @@
   },
   "playwright": {
     "command": "npx",
-    "args": ["-y", "@pvinis/playwright-stealth-mcp-server"]
-  },
-  "mixpanel": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.mixpanel.com/mcp"]
+    "args": ["-y", "@executeautomation/playwright-mcp-server"]
   }
 }
