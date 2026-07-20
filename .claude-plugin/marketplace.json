@@ -71,7 +71,7 @@
       "name": "mcps",
       "source": "./mcps",
       "description": "MCP servers for Claude Code",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "author": {
         "name": "h16rkim",
         "email": "h16rkim@gmail.com"

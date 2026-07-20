@@ -17,10 +17,6 @@
     "command": "npx",
     "args": ["-y", "@executeautomation/playwright-mcp-server"]
   },
-  "mixpanel": {
-    "command": "npx",
-    "args": ["-y", "mcp-remote", "https://mcp.mixpanel.com/mcp"]
-  },
   "atlassian-mcp-server": {
     "type": "http",
     "url": "https://mcp.atlassian.com/v1/mcp"
